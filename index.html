@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og:https://ogp.me/ns#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:wght@600&display=swap" rel="stylesheet">
+  <link href="src/css/main.css" rel="stylesheet">
+
+  <title>路線カラー</title>
+</head>
+
+<body>
+  <main>
+    <div id="jr-east">
+      <h1>JR東日本</h1>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>色</th>
+              <th>路線名</th>
+              <th>記号</th>
+              <th>駅数</th>
+              <th>区間</th>
+              <th>営業キロ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="jr-east yamanote-line line-color"></td>
+              <td>山手線</td>
+              <td>JY</td>
+              <td>29</td>
+              <td>品川～田端(新宿経由)</td>
+              <td>20.6km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east tokaido-line line-color"></td>
+              <td>東海道線</td>
+              <td>JT</td>
+              <td></td>
+              <td>東京</td>
+              <td>59.1km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east keihin-tohoku-line line-color"></td>
+              <td>京浜東北線</td>
+              <td>JK</td>
+              <td>36</td>
+              <td>大宮～横浜</td>
+              <td>59.1km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east yokosuka-line line-color"></td>
+              <td>横須賀線</td>
+              <td>JO</td>
+              <td></td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east nambu-line line-color"></td>
+              <td>総武線</td>
+              <td>JN</td>
+              <td>30</td>
+              <td>東京～千葉</td>
+              <td>60.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east yokohama-line line-color"></td>
+              <td>横浜線</td>
+              <td>JH</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east ito-line line-color"></td>
+              <td>伊東線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east sagami-line line-color"></td>
+              <td>相模線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east tsurumi-line line-color"></td>
+              <td>鶴見線</td>
+              <td>JI</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east utsunomiya-line line-color"></td>
+              <td>宇都宮</td>
+              <td>JU</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east takasaki-line line-color"></td>
+              <td>高崎線</td>
+              <td>JU</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east saikyo-line line-color"></td>
+              <td>埼京線</td>
+              <td>JA</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east kawagoe-line line-color"></td>
+              <td>川越線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east musashino-line line-color"></td>
+              <td>武蔵野線</td>
+              <td>JM</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east joetsu-line line-color"></td>
+              <td>上越線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east shin-etsu-line line-color"></td>
+              <td>信越本線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east agatsuma-line line-color"></td>
+              <td>吾妻線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east karasuyama-line line-color"></td>
+              <td>烏山線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east hachiko-line line-color"></td>
+              <td>八高線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east nikko-line line-color"></td>
+              <td>日光線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east ryomo-line line-color"></td>
+              <td>両毛線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east Chuo-line-rapid line-color"></td>
+              <td>中央線快速</td>
+              <td>JC</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east chuo-sobu-line-local line-color"></td>
+              <td>中央・総武線各停</td>
+              <td>JB</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east chuo-line line-color"></td>
+              <td>中央本線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east itsukaichi-line line-color"></td>
+              <td>五日市線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east ome-line line-color"></td>
+              <td>青梅線</td>
+              <td>JC</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east koumi-line line-color"></td>
+              <td>小海線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east joban-line line-color"></td>
+              <td>常磐線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east joban-line-rapid line-color"></td>
+              <td>常磐線快速</td>
+              <td>JJ</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east joban-line-local line-color"></td>
+              <td>常磐線各停</td>
+              <td>JL</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east suigun-line line-color"></td>
+              <td>水郡線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east mito-line line-color"></td>
+              <td>水戸線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east sobu-line-rapid line-color"></td>
+              <td>総武線快速</td>
+              <td>JO</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east sobu-line line-color"></td>
+              <td>総武本線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east keiyo-line line-color"></td>
+              <td>京葉線</td>
+              <td>JE</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east uchibo-line line-color"></td>
+              <td>内房線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east kashima-line line-color"></td>
+              <td>鹿島線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east kururi-line line-color"></td>
+              <td>久留里線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east sotobo-line line-color"></td>
+              <td>外房線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east togane-line line-color"></td>
+              <td>東金線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+
+            <tr>
+              <td class="jr-east narita-line line-color"></td>
+              <td>成田線</td>
+              <td>-</td>
+              <td>3</td>
+              <td>東京～</td>
+              <td>62.2km</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tokyo-metro">
+      <h1>東京メトロ</h1>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>色</th>
+              <th>路線名</th>
+              <th>記号</th>
+              <th>駅数</th>
+              <th>区間</th>
+              <th>営業キロ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="metro hibiya-subway line-color"></td>
+              <td>日比谷線</td>
+              <td>H</td>
+              <td>22</td>
+              <td>北千住～中目黒</td>
+              <td>14.2km</td>
+            </tr>
+
+            <tr>
+              <td class="metro ginza-subway line-color"></td>
+              <td>銀座線</td>
+              <td>G</td>
+              <td>19</td>
+              <td>浅草～渋谷</td>
+              <td>14.2km</td>
+            </tr>
+
+            <tr>
+              <td class="metro marunouchi-subway line-color" rowspan="2"></td>
+              <td rowspan="2">丸ノ内線</td>
+              <td>M</td>
+              <td>25</td>
+              <td>池袋～荻窪</td>
+              <td>24.2km</td>
+            </tr>
+            <tr>
+              <td>Mb</td>
+              <td>4</td>
+              <td>中野坂上～方南町</td>
+              <td>3.2km</td>
+            </tr>
+
+            <tr>
+              <td class="metro tozai-subway line-color"></td>
+              <td>東西線</td>
+              <td>T</td>
+              <td>23</td>
+              <td>中野～西船橋</td>
+              <td>30.8km</td>
+            </tr>
+
+            <tr>
+              <td class="metro namboku-subway line-color"></td>
+              <td>南北線</td>
+              <td>N</td>
+              <td>19</td>
+              <td>目黒～赤羽岩淵</td>
+              <td>21.3km</td>
+            </tr>
+
+            <tr>
+              <td class="metro yurakucho-subway line-color"></td>
+              <td>有楽町線</td>
+              <td>Y</td>
+              <td>24</td>
+              <td>和光市～新木場</td>
+              <td>28.3km</td>
+            </tr>
+
+            <tr>
+              <td class="metro chiyoda-subway line-color"></td>
+              <td>千代田線</td>
+              <td>C</td>
+              <td>20</td>
+              <td>北綾瀬～代々木上原</td>
+              <td>24.0km</td>
+            </tr>
+
+            <tr>
+              <td class="metro hanzomon-subway line-color"></td>
+              <td>半蔵門線</td>
+              <td>Z</td>
+              <td>14</td>
+              <td>渋谷～押上</td>
+              <td>16.8km</td>
+            </tr>
+
+            <tr>
+              <td class="metro fukutoshin-subway line-color"></td>
+              <td>副都心線</td>
+              <td>F</td>
+              <td>10</td>
+              <td>小竹向原～渋谷</td>
+              <td>11.9km</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script src=""></script>
+
+  <noscript>
+
+  </noscript>
+</body>
+
+</html>
