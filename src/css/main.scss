@@ -17,7 +17,27 @@ main {
 table {
   width: 100%;
   max-width: 700px;
+  min-width: 700px;
   white-space: nowrap;
+
+  thead th {
+    background-color: #000;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+
+    :first-child {
+      z-index: 2;
+    }
+  }
+
+  th:first-child {
+    position: sticky;
+    position: -webkit-sticky;
+    left: 0;
+    z-index: 3;
+  }
 }
 
 .table-scroll {
@@ -39,6 +59,10 @@ td {
   text-align: center;
   padding: 10px;
   border: 1px solid #000;
+}
+
+.nothing-lineColor {
+  // background-color: #555;
 }
 
 .line-color {

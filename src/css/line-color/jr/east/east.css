@@ -1,9 +1,3 @@
-// East Japan Railway Company
-.jr-east {
-  fill: #000;
-  stroke: #000;
-}
-
 .yamanote-line {
   background-color: #85c023;
 }
@@ -127,4 +121,4 @@
 
 .shonan-shinjuku-line {
   background-color: #de0515;
-}
+}/*# sourceMappingURL=east.css.map */
